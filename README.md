@@ -35,7 +35,7 @@ Please see .env file. Default value as follow :
     > go run main.go
 
 4. Make sure service is running in port 8000 with command
-    > curl -X GET localhost:8000/
+    > curl -X GET localhost:3030/
 
     Response :
     > {"message":"welcome"}
