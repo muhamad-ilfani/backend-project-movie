@@ -4,7 +4,9 @@ Movie Festival App
 ## Technologies
 1. Go Language
 2. Echo Framework
-3. Postgresql DB
+3. Postgresql DB\
+4. JWT
+5. Bcrypt Hashing Password
 
 ## DB Setting
 This service use postgreSQL database.
@@ -34,7 +36,7 @@ Please see .env file. Default value as follow :
 3. Run service with command
     > go run main.go
 
-4. Make sure service is running in port 8000 with command
+4. Make sure service is running in port 3030 with command
     > curl -X GET localhost:3030/
 
     Response :
